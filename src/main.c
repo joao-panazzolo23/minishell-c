@@ -1,6 +1,9 @@
 #include <stdio.h>
 
+#include "../include/shell.h"
+
 int main(void) {
-    printf("Hello, World!\n");
+    shell_run();
+
     return 0;
 }
